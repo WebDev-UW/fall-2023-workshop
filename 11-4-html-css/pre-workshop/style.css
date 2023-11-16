@@ -34,7 +34,8 @@ p.features-text {
 
 #question-input {
 	height: 60px;
-	width: 240px;
+	width: 360px;
+	font-size: 16px;
 }
 
 #click-button {
