@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+* {
+  font-family: "Red Hat Display";
+  box-sizing: border-box;
+}
+
+:root {
+  --accent: #3235e5;
+  --light-accent: #c7c8ff;
+}
+
+#navbar {
+  padding: 0 20px;
+  height: 70px;
+  background-color: var(--accent);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#logo-text {
+  color: white;
+}
+
+#navbar-link-container > a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#navbar-link-container > a:hover {
+  text-decoration: underline;
+}
+
+#navbar-link-container {
+  display: flex;
+  gap: 20px;
+}
+
+#create-page-container {
+  overflow: auto;
+  height: calc(100vh - 70px);
+  margin-top: 70px;
+  padding: 12px 24px;
+}
+
+#current-flashcard {
+  display: flex;
+  background-color: var(--accent);
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px 48px;
+  border-radius: 10px;
+}
+
+#current-flashcard > input {
+  background-color: var(--light-accent);
+  color: black;
+  height: 100px;
+  width: 400px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+}
+
+.flashcard {
+  display: flex;
+  background-color: var(--accent);
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px 48px;
+  border-radius: 10px;
+}
+
+.flashcard-text {
+  background-color: var(--light-accent);
+  color: black;
+  height: 100px;
+  width: 400px;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 10px;
+}
