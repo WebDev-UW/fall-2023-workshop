@@ -1,0 +1,27 @@
+#app {
+
+}
+
+#flashcard-sets-header {
+	margin-top: 14px;
+	font-size: 28px;
+}
+
+#flashcard-sets-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+#flashcard-sets-container > button {
+	width: 250px;
+	height: 150px;
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 12px;
+	border: 4px dashed var(--accent);
+	background-color: #c7c8ff;
+}
