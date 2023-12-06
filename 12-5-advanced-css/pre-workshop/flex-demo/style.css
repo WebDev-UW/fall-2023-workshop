@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+}
+
+h1, h2, p {
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#container {
+	height: 603px;
+	width: 604px;
+	background-color: #efefef;
+	border: 2px solid black;
+	display: flex;
+	gap: 6px;
+}
+
+.box {
+	background-color: #765eff;
+	height: 196px;
+	width: 196px;
+}
