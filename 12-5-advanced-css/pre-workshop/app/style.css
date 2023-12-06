@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+}
+
+h1, h2, p {
+	margin: 0;
+}
+
+* {
+	font-family: "Red Hat Display";
+	box-sizing: border-box;
+}
+
+:root {
+	--accent: #3235e5;
+}
+
+#navbar {
+    padding: 0 20px;
+	height: 70px;
+    background-color: var(--accent);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#logo-text {
+	color: white;
+}
+
+#navbar-link-container > a {
+	color: white;
+    text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#navbar-link-container > a:hover {
+    text-decoration: underline;
+}
+
+#navbar-link-container {
+	display: flex;
+	gap: 20px;
+}
+
+#app {
+	margin-top: 70px;
+	overflow: auto;
+	height: calc(100vh - 70px);
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	gap: 10px;
+}
+
+#flashcard-sets-header {
+	margin-top: 14px;
+	font-size: 28px;
+}
+
+#flashcard-sets-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+#flashcard-sets-container > button {
+	width: 250px;
+	height: 150px;
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 12px;
+	background-color: #c7c8ff;
+	border: 4px dashed var(--accent);
+}
