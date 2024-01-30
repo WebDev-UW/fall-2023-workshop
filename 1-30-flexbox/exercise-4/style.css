@@ -1,0 +1,128 @@
+#sidebar {
+	width: 20em;
+	height: 100%;
+	background-color: var(--bg-alt);
+	border-top: 2px solid white;
+	padding: 20px 0;
+
+	/* Add your solution here */
+
+
+
+
+	/* End Code */
+}
+
+#signout-container {
+	border-top: 1px solid white;
+	padding: 16px 16px 0px;
+	width: 100%;
+
+	/* Add your solution here */
+
+
+
+	/* End Code */
+}
+
+
+
+
+
+
+/* -------------------- */
+
+#navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: var(--bg-alt);
+	height: 4em;
+	padding: 0 20px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+
+#logo-container {
+	display: flex;
+	gap: 16px;
+}
+
+#nav-links {
+	display: flex;
+	gap: 20px;
+}
+
+#layout {
+	display: flex;
+	justify-content: start;
+	height: 100%;
+	width: 100%;
+	margin-top: 4em;
+}
+
+#search-container {
+	width: 85%;
+	position: relative;
+}
+
+#search-icon {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 20px;
+}
+
+#signout-icon {
+	height: 32px;
+}
+
+#search-input {
+	font-size: 16px;
+	padding: 6px 10px;
+	background-color: var(--bg);
+	color: white;
+	font-weight: bold;
+	border-radius: 8px;
+	border: 2px solid var(--accent);
+	width: 100%;
+}
+
+#content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+}
+
+#container {
+	margin-top: 0;
+}
+
+#launch {
+	font-size: 16px;
+	padding: 6px 10px;
+	background-color: var(--accent);
+	color: white;
+	font-weight: bold;
+	border-radius: 8px;
+	border: 2px solid #e5e5e5;
+}
+
+#logo {
+	height: 2em;
+}
+
+.nav-link {
+	color: white;
+	font-size: 20px;
+}
+
+body {
+	padding: 0;
+}
